@@ -195,8 +195,3 @@ delete http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/6550c4a3d1d0
 
 
 
-
-
-
-
-"mongodb+srv://lixem50447:78esoYyDX9EGyM0T@cluster0.rbwjid7.mongodb.net/?retryWrites=true&w=majority"
