@@ -29,6 +29,7 @@ const server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
+process.env.MONGODB_URL = "mongodb+srv://lixem50447:78esoYyDX9EGyM0T@cluster0.rbwjid7.mongodb.net/?retryWrites=true&w=majority"
 mongoose.set('strictQuery', true);
 mongoose.connect(process.env.MONGODB_URL).then(() => {
   server.listen(port);
