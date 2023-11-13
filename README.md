@@ -3,9 +3,11 @@
 
 boards
 
-get http://localhost:3000/api/v1/boards
+get all boards:
 
-response: {
+GET http://localhost:3000/api/v1/boards
+
+Response: {
 
     "icon": "📃",
 
@@ -28,8 +30,8 @@ response: {
 
 
 
-
-put http://localhost:3000/api/v1/boards	
+Update Board
+PUT http://localhost:3000/api/v1/boards	
 
 {
 
@@ -42,8 +44,8 @@ put http://localhost:3000/api/v1/boards
 }
 
 
-
-get http://localhost:3000/api/v1/boards/6550b71e7577362c6072025a
+Get specific Board
+GET http://localhost:3000/api/v1/boards/6550b71e7577362c6072025a
 
 {
 
@@ -66,8 +68,8 @@ get http://localhost:3000/api/v1/boards/6550b71e7577362c6072025a
 }
 
 
-
-delete http://localhost:3000/api/v1/boards/6550b71e7577362c6072025a
+Delete Board
+DELETE http://localhost:3000/api/v1/boards/6550b71e7577362c6072025a
 
 "deleted"
 
@@ -82,8 +84,8 @@ delete http://localhost:3000/api/v1/boards/6550b71e7577362c6072025a
 SECTIONS:
 
 
-
-post http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/sections
+Create section
+POST http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/sections
 
 {
 
@@ -109,7 +111,9 @@ TASKS:
 
 
 
-post http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/tasks
+Create Task
+
+POST http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/tasks
 
 {
 
@@ -153,7 +157,8 @@ post http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/tasks
 
 
 
-put http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/tasks/update-position
+Update board position 
+PUT http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/tasks/update-position
 
 
 
@@ -190,8 +195,8 @@ put http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/tasks/update-po
 
 
 
-
-delete http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/6550c4a3d1d0d349c1663692
+Delete Board
+DELETE http://localhost:3000/api/v1/boards/6550c2a8d1d0d349c166368b/6550c4a3d1d0d349c1663692
 
 
 
